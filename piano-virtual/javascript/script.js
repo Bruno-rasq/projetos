@@ -4,12 +4,19 @@ const keys = document.querySelectorAll('.key');
 
 const keymousedown = (key) => {
 
-    if (key.className.includes('black')){}
+    if (key.className.includes('black')){
+        key.classList.add('black--press');
+        return;
+    };
     key.style.background = '#ddd';
     /*assi, que a tecla for pressionada haverá uma mudança de cor */
 };
 
 const keymouseup = (key) => {
+    if (key.className.includes('black')){
+       key.classList.remove('black--press');
+        return;
+    };
     key.style.background = 'white';
     
 };

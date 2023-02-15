@@ -126,3 +126,9 @@ body{
 .piano-keys .white:nth-child(17) {
     margin-right: 14px;
 }
+
+.black--press{
+    background:linear-gradient(#333, black);
+    border-bottom: none;
+
+}
