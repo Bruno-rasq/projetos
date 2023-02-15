@@ -87,6 +87,7 @@ body{
 .key span{
     font-weight: 600;
     position: absolute;
+    transition-duration: 300ms;
     
 }
 
@@ -130,5 +131,10 @@ body{
 .black--press{
     background:linear-gradient(#333, black);
     border-bottom: none;
+
+}
+
+.disabled-keys span{
+    opacity: 0;
 
 }
