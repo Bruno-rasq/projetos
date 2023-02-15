@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.piano{
+    background-color: #121212;
+    width: 650px;
+    height: 300px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.controle{
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+}
+
+.controle h1{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.switcher{
+    width: 50px;
+    height: 20px;
+    background-color: darkgray;
+    display: flex;
+    border-radius: 50px;
+    padding: 4px;
+
+}
+
+.switcherbutton {
+    aspect-ratio: 1/1;
+    height: 100%;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.switcher--ativo{
+    background-color: blueviolet;
+    justify-content: flex-end;
+}
+
+.checkbox-label{
+    display: flex;
+    gap: 15px;
+    /* gap, atributo usado para dar um espaçamento entre itens*/
+}
