@@ -53,3 +53,4 @@ checkbox.addEventListener('change', ({target}) => {
     keysSection.classList.add('disabled-keys');
 
 });
+

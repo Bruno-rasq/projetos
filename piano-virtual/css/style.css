@@ -55,6 +55,7 @@ body{
 .switcher--ativo{
     background-color: blueviolet;
     justify-content: flex-end;
+    
 }
 
 .checkbox-label{
