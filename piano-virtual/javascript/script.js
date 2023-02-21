@@ -1,8 +1,8 @@
 const keys = document.querySelectorAll('.key');
 /*variavel array criado para capturar as teclas utilizadas no piano */
 
-const playnote = (nota) => {
-    const audio = new Audio(`./notas/notes_1.wav`);
+const playnote = (note) => {
+    const audio = new Audio(`./notas/notes_${note}.wav`);
     audio.play();
 
 }
@@ -14,7 +14,7 @@ const keysSection = document.querySelector('.piano-keys')
 
 const keymousedown = (key) => {
     
-    playnote();
+    playnote(key.getAttribute('data-note'));
 
     if (key.className.includes('black')){
         key.classList.add('black--press');
