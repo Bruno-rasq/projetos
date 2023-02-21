@@ -2,7 +2,7 @@ const keys = document.querySelectorAll('.key');
 /*variavel array criado para capturar as teclas utilizadas no piano */
 
 const playnote = (nota) => {
-    const audio = new Audio(`./notas/notes-piano/notes_1.wav`);
+    const audio = new Audio(`./notas/notes_1.wav`);
     audio.play();
 
 }
