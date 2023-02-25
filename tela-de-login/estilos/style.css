@@ -1,3 +1,105 @@
 @charset "UTF-8";
 
 /* mobile first */
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+html, body{
+
+    background-color: rgb(5, 20, 5);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    background-color: white;
+    width: 290px;
+    height: 500px;
+    border-radius: 12px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    overflow: hidden;
+    box-shadow: 0px 0px 12px black;
+
+    transform: translate(-50%, -50%);
+
+}
+
+section#imagem{
+    background: black url('../imagens/pexels-scott-webb-1048033.jpg') no-repeat;
+    height: 220px;
+    background-size: cover;
+
+    display: block;
+}
+
+section#login > section#form{
+    padding: 15px;
+    display: block;
+}
+
+section#login > section#form > h1, p{
+    padding: 10px;
+}
+
+section#login > section#form > p{
+    font-size: 0.8em;
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 30px;
+    display: block;
+}
+
+div.question > span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+div.question > label{
+    display: none;
+}
+
+form > div.question{
+    display: block;
+    margin: 5px 0px;
+    height: 35px;
+
+    background-color: darkgrey;
+}
+
+form > div.question > input{
+    transform: translateY(-7px);
+    height: 30px;
+    
+}
+
+form > a#link{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    font-size: .8em;
+
+}
+

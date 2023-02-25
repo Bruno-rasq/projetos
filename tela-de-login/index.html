@@ -12,42 +12,43 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <main id="login">
-        <section id="imagem">
-            foto
-        </section>
-        <section id="form">
+    <main>
+        <section id="login">
 
-            <h1>Entrar</h1>
-            <p>Faça seu login.</p>
+            <section id="imagem">
+            
+            </section>
 
-            <form action="cadastro.php" method="post" autocomplete="on">
+            <section id="form">
 
-                <div class="question">
+                <h1>Entrar</h1>
+                <p>Faça seu login.</p>
 
-                    <span class="material-symbols-outlined">
-                        person
-                        </span>
-                    
-                    <input type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
-                    <label for="iemail"> E-mail:</label>
-                </div>
+                <form action="cadastro.php" method="post" autocomplete="on">
 
-                <div class="question">
+                    <div class="question">
+                        <span class="material-symbols-outlined">
+                            person
+                            </span>
+            
+                        <input type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
+                        <label for="iemail"> E-mail:</label>
+                    </div>
 
-                    <span class="material-symbols-outlined">
-                        key
-                        </span>
-                    
-                    <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Senha">
-                    <label for="isenha">Senha:</label>
-                </div>
-
-                <div class="botao">
-                    <input type="submit" value="Entrar!">
-                </div>
-                <a href="#">Esqueci minha senha.</a>
-            </form>
+                    <div class="question">
+                        <span class="material-symbols-outlined">
+                            key
+                            </span>
+            
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Senha">
+                        <label for="isenha">Senha:</label>
+                    </div>
+                    <div class="botao">
+                        <input type="submit" value="Entrar!">
+                    </div>
+                    <a href="#" id="link">Esqueci minha senha.</a>
+                </form>
+            </section>
         </section>
     </main>
     
