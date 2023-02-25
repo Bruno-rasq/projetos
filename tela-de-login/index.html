@@ -40,12 +40,18 @@
                             key
                             </span>
             
-                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Senha">
+                        <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Senha" minlength="8" maxlength="20">
                         <label for="isenha">Senha:</label>
                     </div>
-                    <div class="botao">
+
+                    <div id="checkbox">
+                        <input type="checkbox" name="checkLogin" id="checkLogin"> Marter-me logado.
+                    </div>
+
+                    <div>
                         <input type="submit" value="Entrar!">
                     </div>
+
                     <a href="#" id="link">Esqueci minha senha.</a>
                 </form>
             </section>
