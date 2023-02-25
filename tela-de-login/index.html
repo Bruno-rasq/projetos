@@ -7,6 +7,9 @@
     <title>Bem-Vindo(a)!</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main id="login">
@@ -17,17 +20,27 @@
 
             <h1>Entrar</h1>
             <p>Faça seu login.</p>
-            
+
             <form action="cadastro.php" method="post" autocomplete="on">
 
                 <div class="question">
-                    <label for="iemail"> E-mail:</label>
+
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    
                     <input type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
+                    <label for="iemail"> E-mail:</label>
                 </div>
 
                 <div class="question">
-                    <label for="isenha">Senha:</label>
+
+                    <span class="material-symbols-outlined">
+                        key
+                        </span>
+                    
                     <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="Senha">
+                    <label for="isenha">Senha:</label>
                 </div>
 
                 <div class="botao">
