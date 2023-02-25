@@ -70,8 +70,8 @@ input[type=submit] {
 }
 
 div.question > span{
-    background-color: black;
-    color: white;
+    /*background-color: black;
+    color: white;*/
     padding: 5px;
 }
 
@@ -81,15 +81,18 @@ div.question > label{
 
 form > div.question{
     display: block;
-    margin: 5px 0px;
+    margin: 6px 0px;
     height: 35px;
 
-    background-color: darkgrey;
+    /*background-color: darkgrey;*/
 }
 
 form > div.question > input{
-    transform: translateY(-7px);
     height: 30px;
+    width: 83%;
+
+    transform: translateY(-7px);
+    
     
 }
 
