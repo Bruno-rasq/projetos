@@ -172,6 +172,7 @@ div.question > span{
     /*background-color: black;
     color: white;*/
     padding: 5px;
+    
 }
 
 div.question > label{
@@ -179,18 +180,16 @@ div.question > label{
 }
 
 form > div.question{
-    display: block;
+    display: flex;
     margin: 6px 0px;
     height: 35px;
 
-    /*background-color: darkgrey;*/
 }
 
 form > div.question > input{
-    height: 30px;
-
-    transform: translateY(-7px);
-    
+    height: 35px;
+    width: 100%;
+ 
 }
 
 form > a#link{
