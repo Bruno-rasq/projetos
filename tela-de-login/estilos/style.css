@@ -56,9 +56,15 @@ section#login > section#form{
     display: block;
 }
 
-section#login > section#form > h1{
+section#login > section#form > .titulo{
     user-select: none;
-    margin-bottom: 15px;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+   
+}
+
+.titulo > h1{
+    margin-left: 5px;
 }
 
 section#login > section#form > p{
@@ -119,6 +125,10 @@ input[type=submit] {
 
 }
 
+input[type=submit]:hover{
+    background-color: #343717;
+}
+
 .login-icon{
     padding-bottom: 5px;
     display: flex;
@@ -146,8 +156,16 @@ input[type=submit] {
     background-color: lightgray;
 }
 
+.login-icon .icons-buttom:nth-child(1):hover{
+    background-color: rgb(165, 164, 164);
+}
+
 .login-icon .icons-buttom:nth-child(2){
     background-color: blue;
+}
+
+.login-icon .icons-buttom:nth-child(2):hover{
+    background-color: rgb(20, 20, 182);
 }
 
 div.question > span{
