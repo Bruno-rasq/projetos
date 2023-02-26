@@ -189,7 +189,14 @@ form > div.question{
 form > div.question > input{
     height: 35px;
     width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(238, 238, 238);
  
+}
+
+form > div.question > input:hover{
+    background-color: lightgray;
 }
 
 form > a#link{
@@ -199,6 +206,26 @@ form > a#link{
     text-decoration: none;
     align-items: center;
     justify-content: center;
+    font-size: .8em;
+
+}
+
+#criarCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: .8em;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#criarCadastro > p{
+    user-select: none;
+}
+
+#criarCadastro > a{
+    text-decoration: none;
     font-size: .8em;
 
 }
