@@ -181,8 +181,9 @@ div.question > label{
 
 form > div.question{
     display: flex;
-    margin: 6px 0px;
+    margin: 8px 0px;
     height: 35px;
+    /*background-color: #585f13;*/
 
 }
 
@@ -191,7 +192,7 @@ form > div.question > input{
     width: 100%;
     border-radius: 5px;
     border: none;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0.788);
  
 }
 
