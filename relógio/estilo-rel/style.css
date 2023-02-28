@@ -28,6 +28,9 @@ main{
     border-radius: 300px;
     border: 12px groove #333;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .number{
@@ -90,4 +93,46 @@ main{
 
 .number-12{
     transform: rotate(360deg);
+}
+
+.ponteiros-seg{
+    width: 3px;
+    height: 155px;
+    background-color: rgb(95, 5, 5);
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+
+    /* quando add mais de um transform o vscode ignora o primeiro, para poder usar mais de uma deve-se add-los na mesma linha de codigo.
+    
+     transform: translate(0, -50%) rotate(30deg);*/
+}
+
+.ponteiros-min{
+    width: 6px;
+    height: 145px;
+    background-color: rgb(10, 2, 2);
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.ponteiros-hr{
+    width: 8px;
+    height: 115px;
+    background-color: rgb(10, 2, 2);
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center; 
+}
+
+.center{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
 }
