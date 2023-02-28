@@ -60,6 +60,7 @@ section#login > section#form > .titulo{
     user-select: none;
     margin: 15px 0px 15px 0px;
     display: flex;
+    color:#585f13;
    
 }
 
@@ -172,6 +173,8 @@ div.question > span{
     /*background-color: black;
     color: white;*/
     padding: 5px;
+    color:#343717;
+    user-select: none;
     
 }
 
@@ -202,13 +205,17 @@ form > div.question > input:hover{
 
 form > a#link{
     display: flex;
-    margin: 2px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
 
     text-decoration: none;
     align-items: center;
     justify-content: center;
     font-size: .8em;
 
+}
+
+a#link:hover{
+    color:#585f13;
 }
 
 #criarCadastro{
