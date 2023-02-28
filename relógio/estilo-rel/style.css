@@ -22,8 +22,8 @@ main{
 }
 
 .relogio{
-    width: 400px;
-    height: 400px;
+    min-width: 400px;
+    min-height: 400px;
     background-color: aliceblue;
     border-radius: 300px;
     border: 12px groove #333;
