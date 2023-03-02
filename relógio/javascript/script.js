@@ -2,25 +2,27 @@ const pontHr = document.querySelector('.ponteiros-hr');
 const pontMin = document.querySelector('.ponteiros-min');
 const pontSec = document.querySelector('.ponteiros-seg');
 
+
 const getTime = () => {
     const data = new Data();
-   return {
-        horas: data.getHours(),
-        minutos: data.getMinutes(),
-        segundos: data.getSeconds(),
+    const obj = {
+      hours: data.getHours(),
+      minutes: data.getMinutes(),
+      seconds: data.getSeconds(),
 
-    };
+    }
 
+   return obj;
 };
 
 setInterval(() => {
 
-  const { segundos, minutos, horas } = getTime(); 
+  const {seconds, minutes, hours} = getTime()
 
-  pontSec.style.transform = `translate(0, -50%) rotate(${segundos * 6}deg)`; 
+  pontSec.style.transform = `transform(0, -50%) rotate(${seconds * 6 }deg)`;
 
-  pontMin.style.transform = `translate(0, -50%) rotate(${minutos * 6}deg)`;
+  pontMin.style.transform = `transform(0, -50%) rotate(${minutes * 6 }deg)`;
 
-  pontHr.style.transform = `translate(0, -50%) rotate(${horas * 30}deg)`;
+  pontHr.style.transform = `transform(0, -50%) rotate(${hours * 30 }deg)`;
 
 }, 1000);

@@ -10,8 +10,7 @@
 }
 
 body{
-    background: darkgray url('../imagens/pexels-becca-correia-8723508.jpg') no-repeat;
-    background-size: cover;
+    background-color: darkgray;
 }
 
 header{
