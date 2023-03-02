@@ -9,8 +9,9 @@
     box-sizing: border-box;
 }
 
-html, body{
-    background-color: darkgray;
+body{
+    background: darkgray url('../imagens/pexels-becca-correia-8723508.jpg') no-repeat;
+    background-size: cover;
 }
 
 header{
@@ -35,11 +36,11 @@ span#burguer:hover{
 }
 
 header > menu{
-    /*display: none;*/
+    display: none;
 }
 
 menu > ul {
-    /*list-style-type: none;*/
+    list-style-type: none;
 }
 
 menu > ul > li > a{
@@ -60,7 +61,7 @@ menu > ul > li > a:hover{
 main{
     width: 96vw;
     height: 100vh;
-    background-color: black;
+    /*background-color: black;*/
     color: white;
     margin: auto;
     padding: 10px;
@@ -70,6 +71,7 @@ main{
 article > h2{
     padding-bottom: 30px;
     padding-top: 15px;
+    text-align: center;
 }
 
 article > p{
