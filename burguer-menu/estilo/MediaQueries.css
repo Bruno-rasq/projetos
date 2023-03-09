@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    /* ------------------- HEADER ---------------------*/
     header {
-        display: inline-block;
+        display: block;
+        position: fixed;
     }
 
     header > span#burguer{
@@ -12,9 +15,71 @@
     #menu{
         display: block;
         width: 100vw;
-        height: 70px;
+        height: 50px;
 
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.356);
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        position: relative;
+        top: -45px;
+        left: 5px;
+
+        width: 93px;
+        height: 40px;
+
+        padding: 5px;
+
+        /*background-color: brown;*/
+    }
+
+    #menu > ul > li:hover{
+        background-color: rgba(119, 119, 119, 0);
+    }
+
+    #menu > ul > li:hover::after{
+        position: absolute;
+        top: 35px;
+        content: "";
+        display: block;
+
+        background-color: rgba(234, 9, 255, 0.932);
+        width: 91px;
+        height: 5px;
+    }
+
+    #menu > ul > li > a {
+        width: 90px;
+        height: 30px;
+
+        padding: 0px;
+        margin: 0px;
+
+        /*background-color: blueviolet;*/
+    }
+
+    /* ------------------- MAIN ---------------------*/
+
+}
+
+@media screen  and (min-width: 992px){
+    /* ------------------- HEADER ---------------------*/
+    header {
+        display: block;
+        position: fixed;
+    }
+
+    header > span#burguer{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+        width: 100vw;
+        height: 50px;
+
+        background-color: rgba(0, 0, 0, 0.356);
     }
 
     menu > ul > li{
@@ -23,19 +88,39 @@
         top: -45px;
 
         width: 123px;
-        height: 50px;
+        height: 40px;
+
+        padding: 5px;
 
         /*background-color: brown;*/
     }
 
+    #menu > ul > li:hover{
+        background-color: rgba(119, 119, 119, 0);
+    }
+
+    #menu > ul > li:hover::after{
+        position: absolute;
+        top: 35px;
+        content: "";
+        display: block;
+
+        background-color: rgba(234, 9, 255, 0.932);
+        width: 120px;
+        height: 5px;
+    }
+
     #menu > ul > li > a {
-        width: 118px;
-        height: 50px;
+        width: 115px;
+        height: 36px;
 
         padding: 0px;
-        margin: 3px;
+        margin: 0px;
+        border-radius: 0px;
 
         /*background-color: blueviolet;*/
     }
 
+    /* ------------------- MAIN ---------------------*/
+    
 }
