@@ -10,71 +10,86 @@
 }
 
 body{
-    background-color: darkgray;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: black url('../imagens/pexels-matthias-kramer-3938922.jpg') no-repeat;
+    background-size: cover;
 }
 
-header{
-    background-color: rgb(79, 6, 148);
-    padding: 15px;
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
-header > menu{
-    display: block;
+/* HEADER */
 
+header {
+    /*background-color: brown;*/
+    
+    width: 100%;
+    height: 60px;
+
+    position: fixed;
+    
 }
 
-span#burguer{
+header > span#burguer{
+    /*background-color: blueviolet;*/
     color: white;
+
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+
     display: block;
-    padding: 10px;
+    position: absolute;
+    left: 20px;
+    top: 13px;
     cursor: pointer;
+    
 }
 
-span#burguer:hover{
-    background-color: blueviolet;
+header > span#burguer:hover{
+    background-color: rgba(169, 169, 169, 0.404);
 }
 
-header > menu{
-    display: none;
+#menu{
+    background-color: rgb(37, 37, 37);
+
+    display: block;
+    height: 400px;
+    width: 250px;
 }
 
-menu > ul {
+#menu > ul {
     list-style-type: none;
+    display: block;
+    position: absolute;
+    top: 50px;
 }
 
-menu > ul > li > a{
+#menu > ul > li > a{
     display: block;
 
     text-decoration: none;
     color: white;
     text-align: center;
 
+    /*background-color: blue;*/
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.76);
     margin: 3px;
-    border: 1px solid rgba(255, 255, 255, 0.521);
-}
+    padding: 15px;
 
-menu > ul > li > a:hover{
-    background-color: blueviolet;
-}
-
-main{
-    width: 96vw;
-    height: 100vh;
-    /*background-color: black;*/
-    color: white;
-    margin: auto;
-    padding: 10px;
+    width: 240px;
 
 }
 
-article > h2{
-    padding-bottom: 30px;
-    padding-top: 15px;
-    text-align: center;
+#menu > ul > li:hover{
+    background-color: rgb(114, 114, 114);
 }
 
-article > p{
-    text-align: justify;
-    padding-bottom: 20px;
-    text-indent: 20px;
-}
+
+/* MAIN */
