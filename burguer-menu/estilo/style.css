@@ -16,6 +16,7 @@ body{
 
     background: black url('../imagens/pexels-matthias-kramer-3938922.jpg') no-repeat;
     background-size: cover;
+    background-position: center left;
 }
 
 html {
