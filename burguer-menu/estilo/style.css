@@ -14,9 +14,9 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background: black url('../imagens/pexels-matthias-kramer-3938922.jpg') no-repeat;
+    background: black url('../imagens/pexels-riccardo-69903.jpg') no-repeat;
     background-size: cover;
-    background-position: center left;
+    background-position: center center;
 }
 
 html {
@@ -27,10 +27,10 @@ html {
 /* ----------------------- HEADER ------------------------*/
 
 header {
-    /*background-color: brown;*/
+    background-color: rgb(0, 0, 0);
     
     width: 100%;
-    height: 60px;
+    height: 53px;
 
     /*position: fixed;*/
     display: block;

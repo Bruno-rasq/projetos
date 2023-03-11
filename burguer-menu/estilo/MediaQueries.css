@@ -62,6 +62,7 @@
     #menu > ul > li > a {
         width: 90px;
         height: 30px;
+        font-size: .8em;
 
         padding: 0px;
         margin: 0px;
@@ -129,6 +130,7 @@
     #menu > ul > li > a {
         width: 115px;
         height: 36px;
+        font-size: .8em;
 
         padding: 0px;
         margin: 0px;
