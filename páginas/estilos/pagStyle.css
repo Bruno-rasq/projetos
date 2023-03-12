@@ -3,7 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -44,6 +44,73 @@ header{
     justify-content: space-between;
 }
 
+.NavBarra .MenuBarra{
+    display: none;
+}
+
 #burguer{
+    /*background-color: brown;*/
     color: white;
+
+    display: block;
+    position: relative;
+    left: 20px;
+    
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    
+    user-select: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.login{
+    background-color: rgb(255, 2, 2);
+    color: white;
+
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    border: none;
+
+    font-size: .9em;
+    cursor: pointer;
+
+    display: block;
+    position: relative;
+    right: 20px;
+      
+}
+
+.login:hover{
+    background-color: rgb(201, 2, 2);
+    scale: 1.05;
+}
+
+.MenuColuna{
+    position: absolute;
+    display: none;
+    top: 62px;
+    left: 1px;
+
+    background-color: black;
+    color: white;
+
+    height: 100vh;
+    width: 200px;
+}
+
+.MenuColuna > ul > li > a{
+    /*background-color: blueviolet;*/
+    display: block;
+
+    width: 199px;
+    padding: 15px;
+    
+    text-align: center;
+    
+}
+
+.MenuColuna > ul > li:hover{
+    background-color: blueviolet;
 }
