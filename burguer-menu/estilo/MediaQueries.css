@@ -34,7 +34,7 @@
     }
 
     menu > ul > li{
-        display: flex;
+        display: inline-block;
         position: relative;
         top: -45px;
         left: 5px;
