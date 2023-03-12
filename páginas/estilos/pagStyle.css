@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: black;
+    background: url('../imagens/pexels-riccardo-69903.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+/*----------------------- HEADER ------------------*/
+
+header{
+    background-color: black;
+    position: relative;
+    padding: 0.2em;
+}
+
+.NavBarra{
+    width: 100%;
+    height: 56px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#burguer{
+    color: white;
+}
