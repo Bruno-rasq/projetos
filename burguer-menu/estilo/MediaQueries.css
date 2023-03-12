@@ -17,7 +17,7 @@
     }
 
     #menu{
-        display: block;
+        display: flex;
         width: 100vw;
         height: 50px;
 
@@ -27,11 +27,14 @@
     menu > ul{
         display: inline-block;
         position: relative;
-        left: 70px;
+        margin: o auto;
+        align-items: center;
+        justify-content: space-between;
+        
     }
 
     menu > ul > li{
-        display: inline-block;
+        display: flex;
         position: relative;
         top: -45px;
         left: 5px;
@@ -96,7 +99,8 @@
     menu > ul{
         display: inline-block;
         position: relative;
-        left: 70px;
+        margin: o auto;
+        align-items: center;
     }
 
     menu > ul > li{
