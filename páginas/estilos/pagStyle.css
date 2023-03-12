@@ -89,7 +89,7 @@ header{
 
 .MenuColuna{
     position: absolute;
-    display: none;
+    display: block;
     top: 62px;
     left: 1px;
 

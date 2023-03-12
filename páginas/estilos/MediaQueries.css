@@ -8,13 +8,15 @@
     }
 
     .NavBarra .MenuBarra{
-
+        /*background-color: red;*/
+        
         display: flex;
         position: relative;
         left: 20px;
         gap: 2em;
 
         font-size: .8em;
+        height: 30px;
     }
 
     
