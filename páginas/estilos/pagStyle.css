@@ -19,6 +19,11 @@ body {
     background-position: center center;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
 li{
     list-style: none;
 }
@@ -33,8 +38,9 @@ a{
 
 header{
     background-color: black;
-    position: relative;
+    position: fixed;
     padding: 0.2em;
+    width: 100vw;
 }
 
 .NavBarra{
@@ -133,12 +139,49 @@ header{
     scale: 1.05;
 }
 
-/* ---------------- [HEADER] BARRA COLUNA ----------------*/
+/* ---------------- [MAIN] BARRA COLUNA ----------------*/
 
 .MenuColuna{
     display: none;
+    width: 240px;
+    left: -240px;
+    height: 100vh;
+
+    background-color: black;
+
+}
+
+.MenuColuna .BurgerMenu{
+    display: block;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /*background-color: orange;*/
+}
+
+.MenuColuna .BurgerMenu > li{
+    /*background-color: blue;*/
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.MenuColuna .BurgerMenu > li:hover{
+    background-color: rgb(233, 6, 6);
 }
 
 /* ---------------- MAIN -------------------*/
 
+main > section{
+    background-color: white;
+    padding: 30px;
+    text-align: justify;
+    text-indent: 20px;
 
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+}
