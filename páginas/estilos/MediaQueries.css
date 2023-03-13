@@ -7,9 +7,21 @@
         display: none;
     }
 
+    .tittle{
+        order: 1;
+        display: flex;
+        position: relative;
+        left: 20px;
+    }
+
+    .login{
+        order: 3;
+    }
+
     .NavBarra .MenuBarra{
         /*background-color: red;*/
         
+        order: 2;
         display: flex;
         position: relative;
         left: 20px;
