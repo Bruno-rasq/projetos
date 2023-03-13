@@ -133,3 +133,12 @@ header{
     scale: 1.05;
 }
 
+/* ---------------- [HEADER] BARRA COLUNA ----------------*/
+
+.MenuColuna{
+    display: none;
+}
+
+/* ---------------- MAIN -------------------*/
+
+
